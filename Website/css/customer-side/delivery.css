@@ -1,0 +1,93 @@
+#row > #headerContainer{
+    display: flex;
+    justify-content: center;
+    top: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+#row #orderSlipH1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#txt{
+    font-size: 1.25rem;
+    margin-left: 5px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    padding: 4px;
+    width: 900px;
+}
+footer{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+form{
+    padding-left: 18px;
+}
+table{
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 23px;
+}
+thead th{
+    background-color: #D9D9D9;
+    padding-right: 18px;
+    padding-left: 12px;
+    width: 773.5px;
+    text-align: left;
+}
+tbody td{
+    padding-right: 18px;
+    padding-left: 12px;
+    width: 773.5px;
+}
+.input-field_col_s12{
+    margin-left:42px ;
+}
+.input-field_col_s12 > textarea{
+    margin-left:23px ;
+}
+.input-field_col_s12 #labelNote{
+    margin-left: 22px;
+}
+textarea{
+    width: 700.5px;
+    resize: none;
+    background-color: #D9D9D9;
+    height: 120px;
+}
+.txtArea{
+    display: flex;
+    justify-content: flex-end;
+}
+.txtArea > button{
+    margin-top: 10px;
+    margin-right: 110px;
+    padding: 8px;
+    width: 200px;
+    background-color: rgba(242, 171, 56, 1);
+    color: white;
+    cursor: pointer;
+    transition: opacity 120ms, color 120ms;
+}
+.txtArea > button:hover{
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(242, 171, 56, 1);
+}
+.txtArea > button:active{
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(242, 171, 56, 1);
+}
+
+.error{
+    color: red;
+}
+.scrollable{
+    overflow-y: scroll;
+    height: 300px;
+    width: 90%;
+    margin-left: 23px;
+}

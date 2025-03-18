@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400px;
+}
+.mainParent{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right,#f2ab38,#ffda56bd),url('img/News&Blogs.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#signupInputForms{
+    background-color: #4A4646;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+#signupInputForms #in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"], input[type="email"]{
+    background-color: #343434 ;/* set the background color */
+    color: #ffffff; /* set the text color */
+    border: none;
+    width: 300px;
+    height: 30px;
+}
+input[type="submit"]{
+    width: 308px;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: #F2AB38;
+    border: none;
+}
+input[type="submit"]:hover{
+    background-color: #f1fa78;
+}
+label{
+    color: white;
+}
+#Header{
+    background-color: black;
+    color: white;
+    width: 250px;
+    text-align: center;
+    font-weight: bold;
+    transform: none;
+    margin-top: 20px;
+}
+.HeaderContainer{
+    transform: rotate(2deg);
+
+}
+#click{
+    color:white;
+    font-size: 13px;
+}
+#click > a{
+    color:#FCFF5C;
+    text-decoration: none;
+}
+#click > a:hover{
+    color: #f1fa78;
+}

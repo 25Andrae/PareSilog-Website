@@ -1,0 +1,81 @@
+body{
+    background-image: linear-gradient(to right,#f2ab38,#ffda56bd),url('img/News&Blogs.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.parentLog{
+    padding: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4A4646;
+    width: 700px;
+    height: 300px;
+    position: relative;
+    /* left: 50px; */
+    top: 30px;
+    
+} 
+.anak1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+    
+}
+.required {
+    color: red;
+}
+input[type="text"], input[type="password"] {
+    background-color: #343434; /* set the background color */
+    color: #ffffff; /* set the text color */
+    padding: 10px; /* add some padding for better readability */
+    width: 260px;
+  }
+#naalalaNO{
+    font-size: 12px;
+}
+.remember{
+    color: #ffffff;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 248px;
+}
+/*new*/
+.logIn{
+    background-color: #F2AB38; /* set the background color */
+    color:black;
+    padding: 10px; /* add some padding for better readability */
+    width: 277px;
+}
+.logIn:hover{
+    cursor: pointer;
+    color:#F2AB38;
+    background-color: black;
+}
+a{/*Removed the ID kase anchor in general man*/
+    color:#F2AB38;
+    font-size: 13px;
+    text-decoration: none;
+}
+a:hover{
+    
+    color:white;
+}
+.wrongers{
+    color: red;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 248px;
+}
+/*new*/
+footer{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
